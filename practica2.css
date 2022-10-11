@@ -1,11 +1,14 @@
+/*Determinem quina font fem servir a tot el html*/
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Determinem border de la part del header*/
 header {
     text-align: center;
     border: 1px solid;
     border-color: green;
 }
+/*Fem una classe container, on definim marge esquerra i dret, border, i que el contingut serà flex*/
 #container{
     margin-left: 10%;
     margin-right: 10%;
@@ -13,6 +16,7 @@ header {
     border: 1px solid;
     border-color: blue;
 }
+/*El div de nav farà float cap a l'esquerra, definim altura i amplada, color de fons i marge*/
 nav{
     float: left;
     width: 20%;
@@ -24,6 +28,7 @@ nav{
     margin-bottom: 1%;
     
 }
+/*Per a boto definim marges, mides, color de fons, tamany i aliniament de lletra*/
 button{
     
     margin-left: 5%;
@@ -35,6 +40,7 @@ button{
     text-align: left;
     font-size:large;
 }
+/*Definim border i marges del div section*/
 section{
     border: 1px solid;
     border-color: red;
@@ -42,27 +48,28 @@ section{
     margin-right: 1%;
     margin-bottom: 1%;
 }
-
+/*Id lorem que fem servir pel div del titol, definim border*/
 #lorem {
     border: 1px solid;
     border-color: blue;
 }
 
+/*Definim els marges del paragraf que te l'id lorem*/
 #lorem p{
     margin-top: 2%;
     margin-bottom: 2%;
 }
-
+/*Definim color, marge superior i tamany de font del titol de section*/
 h2{
     color: rgb(25, 122, 146);
     font-size: 30px;
     margin-top: 2%;
 }
-
+/*Definim la separacio de linies dels paragrafs*/
 p{
     line-height: 150%;
 }
-
+/*Definim border del div exterior*/
 #exterior{
     border: 1px solid;
     border-color: blue;
@@ -77,6 +84,7 @@ border: 1px solid;
 margin: 1%;
 justify-content: center;
 }
+/*Definim border, marge i padding de cada caixa*/
 .caixa{
     border: 1px solid;
     border-color: magenta;
@@ -85,22 +93,24 @@ justify-content: center;
     padding: 1%;
 }
 
+/**/
 footer{
  font-size: small;
  background-color: grey;
  text-align: right;
  padding: 0.5%;    
 }
-
+/*id per al span de negreta*/
 #negreta{
     font-weight: bold;
 }
-
+/*Definim borde per a tots els textos*/
 h1, h2, h3, p, a{
     border: 1px solid;
     border-color: lightgreen;
     margin: 1%;
 }
+/*Definim marges, amplada i border per a les icones de dins les caixes*/
 .caixa img{
     display: block;
     margin-left: auto;
@@ -111,7 +121,7 @@ h1, h2, h3, p, a{
     border: 1px solid black;
 
 }
-
+/*Definim l'amplada de la imatge al div section*/
 section img{
     width:100%;
 }
