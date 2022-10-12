@@ -75,12 +75,12 @@ p{
     border-color: blue;
     margin-top: 2.5%;
 }
-
+/*Definim el borde al voltant del conjunt de caixes, i l'espai entre aquestes*/
 #caixes{
 display: flex;
 gap: 16px;
 border: 1px solid;
-    border-color: cyan;
+border-color: cyan;
 margin: 1%;
 justify-content: center;
 }
@@ -93,7 +93,7 @@ justify-content: center;
     padding: 1%;
 }
 
-/**/
+/*Definim color, padding, tipus de lletra i aliniament de la lletra al footer*/
 footer{
  font-size: small;
  background-color: grey;
